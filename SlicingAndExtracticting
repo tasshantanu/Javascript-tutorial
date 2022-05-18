@@ -1,0 +1,6 @@
+//BE ADVISED: "Somewhere in your code you overrode alert. Check for var alert = ... or some other kind of declaration like that. Also check for window.alert declarations."
+//---------------------------------------------------------
+
+var tweet = prompt("Compose your tweet:");
+var tweetUnder140 = tweet.slice(0,140);
+alert (tweetUnder140);
