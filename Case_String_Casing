@@ -1,0 +1,20 @@
+//Step 1: Create a variable that stores the name.
+
+var name = prompt("What is your name?");
+
+//Capitalize the first letter of the name.
+
+//a. Isolate the first letter
+var firstChar = name.slice (0,1);
+
+//b. Turn furst char to UpperCase
+var upperCasefirstChar= firstChar.toUpperCase();
+
+//c. Isolate the rest and the concatonate together
+var restOfName = name.slice (1,name.length);
+
+//d. Change the rest of name to Lower Case
+restOfName = restOfName.toLowerCase();
+
+//e. Concactenate the first char with the rest of the char
+var capitalizedName = upperCasefirstChar + restOfName;
