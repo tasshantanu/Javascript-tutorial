@@ -1,0 +1,10 @@
+//Dog age to human age converter
+
+//a. Create a prompt asking for dog's age
+var dogAge = prompt ("What is your dog's age?");
+
+//b. Implement the formula to create the human age
+var humanAge = ((dogAge-2)*4)+21;
+
+//c. Create an alert giving back the answer
+alert ("Your Dog Age to Human Age is: " + humanAge);
