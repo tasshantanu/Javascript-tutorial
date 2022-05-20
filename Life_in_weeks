@@ -1,0 +1,14 @@
+function lifeInWeeks(age) {
+    
+    var remainderAge = 90 - age;
+    var numOfDays = remainderAge*365;
+    var numOfWeeks = remainderAge*52;
+    var numOfMonths = remainderAge*12;
+    
+    console.log("You have " + numOfDays + " days, " + numOfWeeks + " weeks, and " + numOfMonths + " months left.");
+    
+    
+    
+/*************Don't change the code below**********/
+}
+lifeInWeeks(31);
